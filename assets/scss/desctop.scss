@@ -656,13 +656,7 @@ footer{
         margin-bottom:18px;
     }
     button{
-        background-image: linear-gradient(to top, #dd592c 0%, #dd592c 0%, #ea7d3c 100%);
-        border: 1px solid #de5b2d;
-        text-shadow: 0.3px 1px 1px #9e3815;
-        color: #fff;
-        font-size: 21px;
         padding:9px 0 15px;
-        cursor:pointer;
         z-index:1;
         position: absolute;
         bottom:-31px;
@@ -830,6 +824,9 @@ footer{
         color: #00ff9c;
         margin-bottom:25px;
         line-height: 26px;
+        padding-right:45px;
+        max-height:100px;
+        overflow: hidden;
     }
 }
 
@@ -896,15 +893,14 @@ footer{
         font-family:Cuprum;
         font-size: 18px;
         color:#fff;
-        padding-left:18px;
     }
     input,
     textarea{
-        width: 497px;
+        width: 479px;
         display:block;
         margin:0 auto;
         margin-bottom: 20px;
-        padding:7px 0 7px;;
+        padding:7px 0 7px 18px;
     }
     textarea{
         height:63px;    
@@ -1024,5 +1020,9 @@ footer{
 }
 
 .mobile-button-cost{
+    display:none;
+}
+
+.galery-work{
     display:none;
 }

@@ -56,7 +56,12 @@ $('.galery-image').sss({
 });
 });
 
- 
+jQuery(function($) {
+$('.galery-work').sss({
+    slideShow : false,
+    showNav : true    
+});
+});
 
 /*Popup*/
 $('.callback').click(function(event){
